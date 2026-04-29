@@ -1,0 +1,114 @@
+body {
+
+    font-family: Arial;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+
+    width: 700px;
+    text-align: center;
+
+}
+
+h1 {
+
+    font-size: 32px;
+
+}
+
+.subtitle {
+
+    opacity: 0.7;
+
+}
+
+.card {
+
+    background: #1e293b;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+}
+
+textarea,
+input {
+
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+
+}
+
+button {
+
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #00e5ff;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: #89b1b7;
+
+}
+
+.connect {
+
+    background: #ff9800;
+
+}
+
+table {
+
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+
+    padding: 10px;
+    border-bottom: 1px solid #444;
+
+}
+
+th {
+
+    background: #111827;
+
+}
+
+tr:hover {
+
+    background: #374151;
+
+}
+
+.result {
+
+    margin-top: 20px;
+    background: #111;
+    padding: 10px;
+    border-radius: 8px;
+
+}

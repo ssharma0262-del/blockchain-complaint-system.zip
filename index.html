@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Blockchain Complaint Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>⚡ Blockchain Complaint Portal</h1>
+        <p class="subtitle">Transparent Government Grievance System</p>
+
+        <button id="connectBtn" class="connect">Connect Wallet</button>
+
+        <div class="card">
+
+            <h2>Submit Complaint</h2>
+
+            <textarea id="complaintText" placeholder="Write your complaint..."></textarea>
+
+            <button id="submitBtn">Submit Complaint</button>
+
+        </div>
+
+        <div class="card">
+
+            <h2>View Complaint</h2>
+
+            <input id="complaintIndex" placeholder="Complaint Index">
+
+            <button id="getBtn">View</button>
+
+        </div>
+
+        <div class="result">
+
+            <p id="result"></p>
+
+        </div>
+
+        <div class="card">
+
+            <h2>All Complaints</h2>
+
+            <button id="allBtn">Load All Complaints</button>
+
+            <div id="complaintList"></div>
+
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
